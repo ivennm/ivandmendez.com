@@ -1,0 +1,235 @@
+.nav-bar {
+    font-family: Arial;
+    background-color: rgb(30, 30, 50);
+    position:fixed;
+    width: 100%;
+    height: 50px;
+    top:0;
+    left:0;
+    border: 1px solid black;
+    box-shadow: 0px 5px rgb(0, 0, 0);
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+body {
+    background-color: rgb(24, 25, 40);
+}
+
+.lower-half {
+    position:absolute;
+    background-color: rgb(30, 30, 40);
+    width: 100%;
+    height: 100%;
+    top: 1000px;
+    text-align: center;
+
+}
+
+
+.main-container {
+    color: white;
+    margin-top: 100px;
+    display: flex;
+}
+
+
+
+
+.nav-bar ul {
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.nav-bar a {
+    font-family: Arial;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    float: left;
+    border: 1px solid black;
+}
+
+li a {
+    display: block;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: rgb(20, 30, 40);
+}
+
+
+.home-button {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-family: Impact;
+    padding-left: 40px;
+
+}
+
+.bio {
+    font-size: 25px;
+    width: 100%;
+    max-width: 880px;
+    margin-top: 200px;
+    color: white;
+    display: block;
+
+}
+
+.bio-prgph {
+    display: block;
+
+}
+
+.picture {
+    width: fit-content;
+    text-align: center;
+    padding: 80px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+}
+
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+
+h3 {
+    color: white;
+    font-size: normal;
+
+}
+
+
+.ivan {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    padding-bottom: 0px;
+    object-fit: cover;
+
+}
+
+
+.text {
+    font-size: 20px;
+}
+
+.resume {
+    margin-top: 80px;
+}
+
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  /* Defines 3 equal columns */
+    grid-template-rows: repeat(2, 200px); 
+}
+
+.skills {
+    height: 100px;
+    width: 100px;
+}
+
+
+.skills-croped {
+    height: 100px;
+    width: 100px;
+    clip-path: inset(20px 0 0 0);
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.image-grid p {
+    color: white;
+}
+
+.contact-container {
+    display: block;
+    width: 80%;
+    margin: 200px auto;
+}
+
+.contact-box {
+    background-color: white;
+    display: flex;
+}
+
+.contact-left {
+    flex-basis: 60%;
+    background-color: white;
+    padding: 40px 60px;
+
+}
+
+.contact-right {
+    flex-basis: 40%;
+    background-color: lightblue;
+    padding: 40px;
+}
+
+.contact-right h3 {
+    color: black;
+    font-size: 25px;
+}
+
+.contact-left h3 {
+    color: black;
+    font-size: 25px;
+}
+
+.input-row {
+    display: block;
+
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group input[type="text"]{
+    font-size: 18px;
+}
+
+.input-box {
+    height: fit-content;
+    width: 500px;
+}
+
+.message-box {
+    width: 500px;
+    height: 200px;
+}
+
+.input-field {
+    padding-top: 20px;
+}
+
