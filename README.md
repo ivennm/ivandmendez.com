@@ -1,2 +1,2 @@
-# ivandmendez.com
+# https://ivandmendez.com/
 My personal website!
