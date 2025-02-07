@@ -14,20 +14,13 @@
         <ul>
             <li><a href="index.html">about me</a></li>
             <li><a href="resume.html">resume</a></li>
+            <li><a href="projects.html">Projects</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
         
     </div>
 
-    <div>
-        <script>
-            async function getDrink() {
-                const response = await fetch('/drink');
-                const data = await response.json();
-                document.getElementById('output').textContent = `Your drink: ${data.drink}`;
-            }
-        </script>
-    </div>
+    
     
 </body>
 </html>
